@@ -1,0 +1,12 @@
+.img-1 {
+    float: left;
+}
+.img-2 {
+    float: right;
+}
+.container-1 {
+    display: flex;
+}
+.container-2 {
+    display: flex;
+}

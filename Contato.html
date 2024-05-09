@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bolos Madureira - Contato </title>
+    <link rel="stylesheet" type="text/css" href=contatostyle.css>
 </head>
 <body>
-    <h1 class="titulo">Contato </h1>
+    <header>
+        <h1 class="logo">Bolos Madureira</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="Produtos.html">Produtos</a>
             <a href="Contato.html">Contato</a>
         </nav>
+    </header>
+    <h1 class="titulo">Contato</h1><br>
+    <div class="formulario">
+        <form action="mailto:teste@gmail.com" method="POST" enctype="text/plain" name="cadastro">
+    
+    Nome Completo <input type="Text" name="nome" size="35"><br><br>
+    Seu e-mail <input type="Text" name="email" size="35"> <br><br>
+    <label for="telefone">Telefone</label>
+    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"><br><br>
+    Observações Gerais:<br>
+    <textarea name="observações" rows="5" cols="60"></textarea><br>
+    
+    <input type="submit" value="Enviar os dados">
+    <input type="reset" value="Limpar os dados">
+    </form>
+    </div><br>
+    <footer class="footer">Feito por João</footer>
 </body>
 </html>
